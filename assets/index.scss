@@ -1,0 +1,376 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #3f434a;
+}
+
+header {
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  background: {
+    image: url(images/bg_header_pink.png);
+    repeat: no-repeat;
+    position: center bottom;
+    size: cover;
+  }
+  .headerWrapper {
+    padding-top: 160px;
+    .header_logo {
+      height: 117px;
+      background: {
+        image: url(images/header_logo.png);
+        repeat: no-repeat;
+        size: contain;
+        position: top;
+      }
+    }
+    h2 {
+      color: #ffffff;
+      font: {
+        size: 21px;
+        weight: normal;
+      }
+      margin: 23px 0;
+    }
+    .textWrapper {
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      right: 0;
+      div {
+        color: #ffffff;
+        font-size: 13px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.appstore_btn {
+  height: 60px;
+  background: {
+    image: url(images/button_appstore.png);
+    repeat: no-repeat;
+    size: contain;
+    position: center;
+  }
+}
+
+.serviceWrapper {
+  display: flex;
+  height: 610px;
+  
+  .service {
+    letter-spacing: 2px;
+    width: calc(100% / 3);
+    padding: 50px 40px;
+    background: {
+      repeat: no-repeat;
+      position: center bottom;
+      size: cover;
+    }
+    h2 {
+      color: #ffffff;
+      font: {
+        weight: normal;
+      }
+    }
+    .text {
+      color: #ffffff;
+      font-size: 15px;
+    }
+  }
+  .image01 {
+    background-image: url(images/bg_service01.png);
+  }
+  .image02 {
+    background-image: url(images/bg_service02.png);
+  }
+  .image03 {
+    background-image: url(images/bg_service03.png);
+  }
+}
+
+.planWrapper {
+  display: flex;
+  height: 500px;
+  text-align: center;
+
+  .plan01 {
+    width: 50%;
+    padding:50px 25px;
+    background-color: #f5f5f5;
+    h2 {
+      font-weight: normal;
+      letter-spacing: 0.5px;
+    }
+
+    .contentWrapper {
+      width: 420px;
+      margin: 0 auto;
+
+      .imageWrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+
+        .container {
+          background: #ffffff;
+          width: 200px;
+          border-radius: 15px;
+        }
+
+        .single-img {
+          height: 250px;
+          background: {
+            image: url(images/plan_single.png);
+            size: 110px;
+            repeat: no-repeat;
+            position: center;
+          }
+        }
+
+        .bouquet-img {
+          height: 250px;
+          position: relative;
+          background: {
+            image: url(images/plan_bouquet.png);
+            size: 110px;
+            repeat: no-repeat;
+            position: center;
+          }
+          .free-img {
+            height: 70px;
+            width: 70px;
+            position: absolute;
+            top: -13px;
+            right: -13px;
+            background: {
+              image: url(images/plan_free.png);
+              size: contain;
+              repeat: no-repeat;
+            }
+          }
+        }
+      }
+
+      p {
+        text-align: left;
+        margin: 0;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .plan02 {
+    width: 50%;
+    padding: 100px 0;
+    h3 {
+      font-weight: normal;
+      letter-spacing: 1px;
+    }
+    .frequency-img {
+      height: 150px;
+      background: {
+        image: url(images/img_frequency.png);
+        size: contain;
+        repeat: no-repeat;
+        position: center;
+      }
+    }
+  }
+}
+
+.flowerWrapper {
+  display: flex;
+  height: 730px;
+  background-color: #ead5dc;
+
+  .flower {
+    width: 50%;
+  }
+
+  .textWrapper {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    h1 {
+      font: {
+        weight: normal;
+        size: 25px;
+      }
+    }
+    h2 {
+      font: {
+        weight: normal;
+        size: 22px;
+      }
+    }
+    .text {
+      text-align: left;
+      font-size: 15px;
+      letter-spacing: 0.7px;
+    }
+  }
+
+  .image {
+    background: {
+      image: url(images/bg_flower.png);
+      repeat: no-repeat;
+      size: 90%;
+      position: right center;
+    }
+  }
+}
+
+.vaseWrapper {
+  display: flex;
+  height: 800px;
+  background-color: #e7e3df;
+  .vase {
+    width: 50%;
+  }
+
+  .contentWrapper{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    h1 {
+      font: {
+        weight: normal;
+        size: 25px;
+      }
+    }
+    .whiteBar {
+      font-size: 14px;
+      background: #ffffff;
+      display: inline-block;
+      padding: 5px 10px;;
+    }
+    .text {
+      margin-top: 20px;
+      text-align: left;
+      word-break: break-all;
+      letter-spacing: 0.4px;
+    }
+
+    .imageWrapper {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+
+      .content {
+        height: 120px;
+        width: 100px;
+        line-height: 200px;
+        font: {
+          size: 13px;
+        }
+        background: {
+          size: contain;
+          repeat: no-repeat;
+        }
+      }
+      
+      .bell-img {
+        background-image: url(images/vase_bell.png);
+      }
+      .moon-img {
+        background-image: url(images/vase_moon.png);
+      }
+      .candle-img {
+        background-image: url(images/vase_candle.png);
+      }
+    }
+  }
+  
+  .image {
+    height: 730px;
+    margin-top: auto;
+    background: {
+      image: url(images/bg_vase.png);
+      repeat: no-repeat;
+      position: bottom;
+      size: cover;
+    }
+  }
+}
+
+.infoWrapper {
+  padding: 100px 30px;
+  margin: 0 auto;
+  text-align: center;
+
+  h1 {
+    font: {
+      size: 25px;
+      weight: normal;
+    } 
+    margin: {
+      bottom: 30px;
+      top: 0px;
+    }
+  }
+
+  h2 {
+    font: {
+      size: 23px;
+      weight: normal;
+    } 
+    margin-bottom: 0px;
+  }
+
+  .contentWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    .content {
+      flex-grow: 1;
+      padding-top: 60px;
+    }
+
+    .icon01 {
+      background: {
+        image: url(images/icon01.png);
+        repeat: no-repeat;
+        size: 80px;
+        position: top;
+      }
+    }
+
+    .icon02 {
+      background: {
+        image: url(images/icon02.png);
+        repeat: no-repeat;
+        size: 80px;
+        position: top;
+      }
+    }
+
+    .icon03 {
+      background: {
+        image: url(images/icon03.png);
+        repeat: no-repeat;
+        size: 80px;
+        position: top;
+      }
+    }
+
+  }
+}
+
+.installWrapper {
+  height: 420px;
+  background: {
+    color: #efdfc5;
+    image: url(images/bg_download2.png);
+    size: contain;
+    repeat: no-repeat;
+    position: bottom  0px left 33%;
+  }
+}
+
+footer {
+  height: 220px;
+  background: #3f434a;
+}

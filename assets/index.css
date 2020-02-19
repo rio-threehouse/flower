@@ -1,0 +1,373 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #3f434a;
+}
+
+header {
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  background-image: url(images/bg_header_pink.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+header .headerWrapper {
+  padding-top: 160px;
+}
+
+header .headerWrapper .header_logo {
+  height: 117px;
+  background-image: url(images/header_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+header .headerWrapper h2 {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: normal;
+  margin: 23px 0;
+}
+
+header .headerWrapper .textWrapper {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+}
+
+header .headerWrapper .textWrapper div {
+  color: #ffffff;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.appstore_btn {
+  height: 60px;
+  background-image: url(images/button_appstore.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.serviceWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 610px;
+}
+
+.serviceWrapper .service {
+  letter-spacing: 2px;
+  width: calc(100% / 3);
+  padding: 50px 40px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.serviceWrapper .service h2 {
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.serviceWrapper .service .text {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.serviceWrapper .image01 {
+  background-image: url(images/bg_service01.png);
+}
+
+.serviceWrapper .image02 {
+  background-image: url(images/bg_service02.png);
+}
+
+.serviceWrapper .image03 {
+  background-image: url(images/bg_service03.png);
+}
+
+.planWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  text-align: center;
+}
+
+.planWrapper .plan01 {
+  width: 50%;
+  padding: 50px 25px;
+  background-color: #f5f5f5;
+}
+
+.planWrapper .plan01 h2 {
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+
+.planWrapper .plan01 .contentWrapper {
+  width: 420px;
+  margin: 0 auto;
+}
+
+.planWrapper .plan01 .contentWrapper .imageWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.planWrapper .plan01 .contentWrapper .imageWrapper .container {
+  background: #ffffff;
+  width: 200px;
+  border-radius: 15px;
+}
+
+.planWrapper .plan01 .contentWrapper .imageWrapper .single-img {
+  height: 250px;
+  background-image: url(images/plan_single.png);
+  background-size: 110px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.planWrapper .plan01 .contentWrapper .imageWrapper .bouquet-img {
+  height: 250px;
+  position: relative;
+  background-image: url(images/plan_bouquet.png);
+  background-size: 110px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.planWrapper .plan01 .contentWrapper .imageWrapper .bouquet-img .free-img {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: -13px;
+  right: -13px;
+  background-image: url(images/plan_free.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.planWrapper .plan01 .contentWrapper p {
+  text-align: left;
+  margin: 0;
+  font-size: 13px;
+}
+
+.planWrapper .plan02 {
+  width: 50%;
+  padding: 100px 0;
+}
+
+.planWrapper .plan02 h3 {
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.planWrapper .plan02 .frequency-img {
+  height: 150px;
+  background-image: url(images/img_frequency.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flowerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 730px;
+  background-color: #ead5dc;
+}
+
+.flowerWrapper .flower {
+  width: 50%;
+}
+
+.flowerWrapper .textWrapper {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+
+.flowerWrapper .textWrapper h1 {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.flowerWrapper .textWrapper h2 {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.flowerWrapper .textWrapper .text {
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: 0.7px;
+}
+
+.flowerWrapper .image {
+  background-image: url(images/bg_flower.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: right center;
+}
+
+.vaseWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 800px;
+  background-color: #e7e3df;
+}
+
+.vaseWrapper .vase {
+  width: 50%;
+}
+
+.vaseWrapper .contentWrapper {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.vaseWrapper .contentWrapper h1 {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.vaseWrapper .contentWrapper .whiteBar {
+  font-size: 14px;
+  background: #ffffff;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.vaseWrapper .contentWrapper .text {
+  margin-top: 20px;
+  text-align: left;
+  word-break: break-all;
+  letter-spacing: 0.4px;
+}
+
+.vaseWrapper .contentWrapper .imageWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0;
+}
+
+.vaseWrapper .contentWrapper .imageWrapper .content {
+  height: 120px;
+  width: 100px;
+  line-height: 200px;
+  font-size: 13px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vaseWrapper .contentWrapper .imageWrapper .bell-img {
+  background-image: url(images/vase_bell.png);
+}
+
+.vaseWrapper .contentWrapper .imageWrapper .moon-img {
+  background-image: url(images/vase_moon.png);
+}
+
+.vaseWrapper .contentWrapper .imageWrapper .candle-img {
+  background-image: url(images/vase_candle.png);
+}
+
+.vaseWrapper .image {
+  height: 730px;
+  margin-top: auto;
+  background-image: url(images/bg_vase.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.infoWrapper {
+  padding: 100px 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.infoWrapper h1 {
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.infoWrapper h2 {
+  font-size: 23px;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+.infoWrapper .contentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.infoWrapper .contentWrapper .content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-top: 60px;
+}
+
+.infoWrapper .contentWrapper .icon01 {
+  background-image: url(images/icon01.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: top;
+}
+
+.infoWrapper .contentWrapper .icon02 {
+  background-image: url(images/icon02.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: top;
+}
+
+.infoWrapper .contentWrapper .icon03 {
+  background-image: url(images/icon03.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: top;
+}
+
+.installWrapper {
+  height: 420px;
+  background-color: #efdfc5;
+  background-image: url(images/bg_download2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom  0px left 33%;
+}
+
+footer {
+  height: 220px;
+  background: #3f434a;
+}
+/*# sourceMappingURL=index.css.map */
